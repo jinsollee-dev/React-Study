@@ -1,0 +1,31 @@
+.todo-list {
+  background: rgb(253, 251, 251);
+  width: 512px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin: 4rem auto 0;
+}
+.form {
+  display: flex;
+}
+
+.form input {
+  flex: 1;
+  font-size: 1.25rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #c5f6fa;
+}
+
+.create-button {
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  background: #22b8cf;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.create.-button:hover {
+  background: #3bc9db;
+}
